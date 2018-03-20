@@ -87,7 +87,7 @@ libraryDependencies += groupID % artifactID % revision
 ```
 
 or like this, where `configuration` can be a string or
-[Configuration](../sxr/sbt/Configuration.scala.html#sbt.Configuration) val:
+[Configuration](../api/sbt/librarymanagement/Configuration.html) val:
 
 ```scala
 libraryDependencies += groupID % artifactID % revision % configuration
