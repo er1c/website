@@ -305,7 +305,8 @@ excludeDependencies ++= Seq(
 ##### Download Sources
 
 Downloading source and API documentation jars is usually handled by an
-IDE plugin. These plugins use the `updateClassifiers` and
+IDE plugin. These plugins use the `
+ifiers` and
 `updateSbtClassifiers` tasks, which produce an `Update-Report`
 referencing these jars.
 
@@ -318,7 +319,7 @@ libraryDependencies +=
   "org.apache.felix" % "org.apache.felix.framework" % "1.8.0" withSources() withJavadoc()
 ```
 
-Note that this is not transitive. Use the `update-*classifiers` tasks
+Note that this is not transitive. Use the `update*Classifiers` tasks
 for that.
 
 ##### Extra Attributes
